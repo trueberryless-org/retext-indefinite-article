@@ -124,8 +124,8 @@ Transform ([`Transformer`][unified-transformer]).
 
 Each message is emitted as a [`VFileMessage`][vfile-message] on `file`, with
 `source` set to `'retext-indefinite-article'`, `ruleId` to
-`'retext-indefinite-article'`, `actual` to the unexpected word, and `expected`
-to suggestions.
+`'retext-indefinite-article'`, `actual` to the unexpected word + following noun, and `expected`
+to suggestions with following nouns.
 
 ## Types
 
