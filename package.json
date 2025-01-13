@@ -61,6 +61,9 @@
     "test-api": "node --conditions development test.js",
     "test-coverage": "c8 --100 --check-coverage --reporter lcov npm run test-api"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "prettier": {
     "bracketSpacing": false,
     "singleQuote": true,
