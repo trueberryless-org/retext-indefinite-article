@@ -1,5 +1,5 @@
 {
-  "name": "retext-indefinite-article",
+  "name": "@trueberryless-org/retext-indefinite-article",
   "version": "5.0.0",
   "description": "retext plugin to check if indefinite articles (`a`, `an`) are used correctly",
   "license": "MIT",
@@ -14,8 +14,8 @@
     "retext-plugin",
     "unified"
   ],
-  "repository": "retextjs/retext-indefinite-article",
-  "bugs": "https://github.com/retextjs/retext-indefinite-article/issues",
+  "repository": "trueberryless-org/retext-indefinite-article",
+  "bugs": "https://github.com/trueberryless-org/retext-indefinite-article/issues",
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/unified"

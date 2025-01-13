@@ -1,3 +1,5 @@
+This repository is a modified version of the [original from retextjs](https://github.com/retextjs/retext-indefinite-article). It appends the `following` word in the `actual` string and to each item of the `expected` array, so [starlight-spell-checker](https://github.com/trueberryless-org/starlight-spell-checker) has a nicer output. Please don't submit issues and PRs and all that stuff here! Not maintained!
+
 # retext-indefinite-article
 
 [![Build][build-badge]][build]
@@ -74,7 +76,7 @@ An historic event, or a historic event? Both are fine.
 
 ```js
 import retextEnglish from 'retext-english'
-import retextIndefiniteArticle from 'retext-indefinite-article'
+import retextIndefiniteArticle from '@trueberryless-org/retext-indefinite-article'
 import retextStringify from 'retext-stringify'
 import {read} from 'to-vfile'
 import {unified} from 'unified'
@@ -142,9 +144,9 @@ This means we try to keep the current release line,
 
 ## Related
 
-*   [`retext-redundant-acronyms`](https://github.com/retextjs/retext-redundant-acronyms)
+*   [`retext-redundant-acronyms`](https://github.com/trueberryless-org/retext-redundant-acronyms)
     — check for redundant acronyms (`ATM machine`)
-*   [`retext-repeated-words`](https://github.com/retextjs/retext-repeated-words)
+*   [`retext-repeated-words`](https://github.com/trueberryless-org/retext-repeated-words)
     — check `for for` repeated words
 
 ## Contribute
@@ -163,13 +165,13 @@ abide by its terms.
 
 <!-- Definitions -->
 
-[build-badge]: https://github.com/retextjs/retext-indefinite-article/workflows/main/badge.svg
+[build-badge]: https://github.com/trueberryless-org/retext-indefinite-article/workflows/main/badge.svg
 
-[build]: https://github.com/retextjs/retext-indefinite-article/actions
+[build]: https://github.com/trueberryless-org/retext-indefinite-article/actions
 
-[coverage-badge]: https://img.shields.io/codecov/c/github/retextjs/retext-indefinite-article.svg
+[coverage-badge]: https://img.shields.io/codecov/c/github/trueberryless-org/retext-indefinite-article.svg
 
-[coverage]: https://codecov.io/github/retextjs/retext-indefinite-article
+[coverage]: https://codecov.io/github/trueberryless-org/retext-indefinite-article
 
 [downloads-badge]: https://img.shields.io/npm/dm/retext-indefinite-article.svg
 
