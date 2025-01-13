@@ -1,6 +1,6 @@
 {
   "name": "@trueberryless-org/retext-indefinite-article",
-  "version": "5.0.0",
+  "version": "0.1.0",
   "description": "retext plugin to check if indefinite articles (`a`, `an`) are used correctly",
   "license": "MIT",
   "keywords": [
@@ -20,9 +20,10 @@
     "type": "opencollective",
     "url": "https://opencollective.com/unified"
   },
-  "author": "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
+  "author": "trueberryless <trueberryless@gmail.com> (https://trueberryless.org)",
   "contributors": [
-    "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
+    "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
+    "trueberryless <trueberryless@gmail.com> (https://trueberryless.org)"
   ],
   "sideEffects": false,
   "type": "module",
